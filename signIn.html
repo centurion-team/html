@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&amp;family=Roboto:wght@700;900&amp;display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>Sign Up</title>
+    <title>SIGN IN</title>
 </head>
 <body>
     <div class="container">
@@ -19,44 +19,63 @@
                 <img src="#" alt="logo">
             </a>
             <a href="#" class="btn btn-curve btn-sign-in btn-gray btn-account">
-                <span class="text">Login</span>
+                <span class="text">Sign up</span>
             </a>
         </header>
         <div class="boxed-content animate__animated animate__fadeIn animate__delay-0s">
-            <h1 class="box-content-title">Sign up to get started</h1>
-            <p class="box-content-caption">Please enter your phone number to continue.</p>
-            <form class="box-content-form read-all-input" action method="GET">
-                <label for="phone" class="box-content-form-input">
-                    <span class="label-title">Your Phone</span>
+            <h1 class="box-content-title">Sign in to get started</h1>
+            <p class="box-context-caption">Please enter your details to continue</p>
+            <div class="text-muted text-center mb-4" style="margin-bottom: 10px;">
+                <div id="notification-inline" data-alert="inline" data-alert-type="error" data-default style="display: block;"></div>
+            </div>
+            <div class="box-content-form read-all-input">
+                <label for="username" class="box-content-form-input">
+                    <span class="label-title">Username</span>
                     <div class="input-element">
-                        <input id="phone" name="phone"  value placeholder="080 000 000 00" type="tel" required>
-                        <i class="icon ion-ios-telephone">
-                            ::before
+                        <input id="username" placeholder="Email or Phone" type="text">
+                        <i class="icon ion-ios-person">
+
                         </i>
                     </div>
                 </label>
-                <button type="submit" data-btn="Please wait.." class="btn btn-curve btn-signal">Continue</button>
-            </form>
-            <div class="box-content-separator">
-                ::before
-                "Or"
-                ::after
-            </div>
+                <label for="password" class="box-content-form-input">
+                    <span class="label-title">Your password</span>
+                    <div class="input-element">
+                        <input id="password" placeholder="Password" type="password">
+                        <i class="icon ion-ios-eye" onclick="showPassword(this)">
 
+                        </i>
+                    </div>
+                </label>
+
+                <div class="box-content-form-flex">
+                    <label for="remember" class="checkbox-wrapper">
+                        <span class="checkbox">
+
+                        </span>
+                        <input type="checkbox" id="remember" class="hide" onchange="toggleCheckBox(this, '.checkbox');">
+                        <span class="bold-text">Remeber me</span>
+                    </label>
+                    <a href="#" class="text-signal bold-text">Recover password</a>
+                </div>
+                <button type="button" class="btn btn-curve btn-signal" onclick="signin(this);" data-url="#">Sign in</button>
+            </div>
+            <div class="box-context-separator">
+                "Or"
+            </div>
             <a class="social-button" href="#">
                 <i class="icon ion-person">
-                    ::before
+
                 </i>
-                <span class="social-button-text">Sign in to your account</span>
+                <span class="social-button-text">Create an account</span>
             </a>
             <a class="social-button" href="#">
                 <i class="icon ion-locked">
-                    ::before
+
                 </i>
-                <span class="social-button-text">Recover password</span>
+                <span class="social-button-text">Recovery password</span>
             </a>
         </div>
-
     </div>
     <footer>
         <section class="gray-bg main-footer">
