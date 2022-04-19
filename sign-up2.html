@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- Mirrored from tripmata.com/sign-up by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Apr 2022 12:08:59 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <title>Tripmata.com: Nigeria largest selection of apartments, hotels, properties, and car rentals</title>
+
+    <!-- meta tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Ifeanyi Amadi, Amadiify">
+    <meta name="description"
+        content="We make it easier and cheaper for you to find hotels, homes, apartments, or car rentals in Nigeria.">
+    <meta name="keywords" content="Tripmata, Wekiwork, Tripmata.net, Tripmata nigeria">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=noja">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="robots" content="index, follow">
+    <meta name="session_public_token" content="a46c089aa5634597cc265050ba58d8e1">
+    <meta name="services" content="https://services.tripmata.com/ClientServices/">
+    <meta name="base-url" content="index.html">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./assets/logo/favicon.png" sizes="32x32">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&amp;family=Roboto:wght@700;900&amp;display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="app-header">
+            <a href="index.html" class="app-logo">
+                <img src="./assets/logo/logo2.png" alt="logo">
+            </a>
+
+            <div class="app-navigation-buttons">
+                <a href="https://tripmata.com/sign-up?pn=08063352837"
+                    class="btn btn-curve btn-sign-in btn-gray btn-account">
+                    <span class="text"><i class="icon ion-arrow-left-c"></i> Back</span>
+                </a>
+
+                <a href="login.html" class="btn btn-curve btn-sign-in btn-gray btn-account">
+                    <span class="text">Sign in</span>
+                </a>
+            </div>
+
+        </header>
+
+        <div class="boxed-content animate__animated animate__fadeIn animate__delay-0s">
+            <h1 class="box-content-title">Tell us more about yourself</h1>
+            <p class="box-content-caption">Please enter your details to proceed further.</p>
+
+            <form action="my-account.html" method="POST" class="box-content-form read-all-input">
+
+                <input type="hidden" name="CSRF_TOKEN"
+                    value="czoyMzQ6IjsiczoyMTY6Ij09Z25LZ2VXc0xzV3h1U1djNDVCNS83YmtYK1RYbDdPNzlldE15RTU4TWNiOUs3anZqZ3hqMFhRYVc4K2YwelZBUnlkMjZrN1RaeXhIbkNWbjVDTEo0bUJ4SlFOSGtnSHMycDlaSW1zcWpVeS91TWVGSmw1eVJlbGl0eG5ROTZSZDgzeEh4cmNtbFlWcCtEeWljT2JEYnVWeldGY3h3M09TUVMwSk5GUFpSSDltWTVsVXBRTmpQeG5NUVdkVnVheCtxczJmNkpHMlBXS1F4L1U0b1M5Um4xMyI7Ijo1MjI6cyI7">
+                <input type="hidden" name="REQUEST_METHOD" value="@processSignup">
+                <label for="email" class="box-content-form-input">
+                    <span class="label-title">Your Email</span>
+                    <div class="input-element">
+                        <input id="email" name="email" value="" placeholder="example@mail.com" type="email">
+                        <i class="icon ion-ios-email"></i>
+                    </div>
+                </label>
+
+                <div class="box-content-form-tab">
+                    <label for="firstName" class="box-content-form-input">
+                        <span class="label-title">First Name</span>
+                        <div class="input-element">
+                            <input id="firstName" name="firstname" value="" placeholder="John" type="text">
+                            <i class="icon ion-ios-person"></i>
+                        </div>
+                    </label>
+
+                    <label for="lastName" class="box-content-form-input">
+                        <span class="label-title">Last Name</span>
+                        <div class="input-element">
+                            <input id="lastName" name="lastname" value="" placeholder="Doe" type="text">
+                            <i class="icon ion-ios-person"></i>
+                        </div>
+                    </label>
+                </div>
+
+                <label for="password" class="box-content-form-input">
+                    <span class="label-title">Your Password</span>
+                    <div class="input-element">
+                        <input id="password" name="password" placeholder="******" type="password">
+                        <i class="icon ion-ios-eye" onclick="showPassword(this);"></i>
+                    </div>
+                </label>
+
+                <label for="passwordAgain" class="box-content-form-input">
+                    <span class="label-title">Your Password Again</span>
+                    <div class="input-element">
+                        <input id="passwordAgain" name="password_again" placeholder="******" type="password">
+                        <i class="icon ion-ios-eye" onclick="showPassword(this);"></i>
+                    </div>
+                </label>
+
+                <!-- box content accept terms -->
+                <div class="box-content-form-flex">
+                    <label for="accept-terms" class="checkbox-wrapper">
+                        <span class="checkbox"></span>
+                        <input type="checkbox" name="i_agree" id="accept-terms" class="hide"
+                            onchange="toggleCheckBox(this, '.checkbox');" required="">
+                        <span class="bold-text">I agree with the <a
+                                href="https://tripmata.com/page-content?qn=Terms+Of+Use" target="_blank"
+                                class="link-underline">terms &amp; conditions</a> </span>
+                    </label>
+                </div>
+
+                <button type="submit" data-btn="Please wait..." class="btn btn-curve btn-signal">Continue</button>
+            </form>
+
+        </div>
+    </div>
+    <footer>
+        <!-- footer styling -->
+        <section class="gray-bg main-footer">
+            <!-- add container -->
+            <div class="container">
+                <div class="main-footer-table">
+                    <!-- list footer -->
+                    <aside class="footer-row">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="page-contentf214.html?qn=How%20It%20Works">How It Works</a></li>
+                            <li><a href="contact-us.html">Contact our support</a></li>
+                            <li><a href="page-content85ec.html?qn=Cooperate%20membership">Cooperate membership</a></li>
+                            <li><a href="explore-properties.html">Explore Properties</a></li>
+                            <li><a href="explore-vehicles.html">Explore Vehicles</a></li>
+                            <li><a href="app/coming-soon2491.html?pg=careers">Careers</a></li>
+                            <li><a href="page-content9e1b.html?qn=About-Us">About Us</a></li>
+                            <li><a href="app/coming-soond09d.html?pg=blog">Blog</a></li>
+                        </ul>
+                    </aside>
+
+                    <aside class="footer-row">
+                        <h3>Community</h3>
+                        <ul>
+                            <li><a href="page-content2fcf.html?qn=Diversity%20&amp;%20Belonging">Diversity &
+                                    Belonging</a></li>
+                            <li><a href="page-content5241.html?qn=Against%20Discrimination">Against Discrimination</a>
+                            </li>
+                            <li><a href="page-content088b.html?qn=Accessibility">Accessibility</a></li>
+                            <li><a href="app/coming-soon9d9d.html?pg=invite%20friends">Invite Friends</a></li>
+                            <li><a href="app/coming-soon9be4.html?pg=coupons">Coupons</a></li>
+                        </ul>
+                    </aside>
+
+                    <aside class="footer-row">
+                        <h3>Become a host</h3>
+                        <ul>
+                            <li><a href="login-to-start-listing.html">List your Property</a></li>
+                            <li><a href="login-to-start-listing.html">List your Vehicle</a></li>
+                            <li><a href="app/coming-soon7ae9.html?pg=help-center">Help Center</a></li>
+                            <li><a href="app/coming-soond1b1.html?pg=faq">Frequently Asked Questions</a></li>
+                        </ul>
+                    </aside>
+
+                    <aside class="footer-row">
+                        <h3>Booking support</h3>
+                        <ul>
+                            <li><a href="page-content6f20.html?qn=Updates%20for%20COVID-19">Updates for COVID-19</a>
+                            </li>
+                            <li><a href="page-content84a0.html?qn=Cancellation">Cancellation</a></li>
+                            <li><a href="page-contentc7f7.html?qn=Neighborhood%20Support">Neighborhood Support</a></li>
+                            <li><a href="page-content7db2.html?qn=Trust%20&amp;%20Safety">Trust & Safety</a></li>
+                            <li><a href="subscribe.html">Get amazing deals</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer bottom -->
+        <section class="footer-bottom">
+            <div class="container wrapper-flex flex-space-between flex-middle">
+                <div>
+                    <span>© 2022 All rights reserved</span>
+                    <a href="page-contentb672.html?qn=Privacy%20Policy">Privacy Policy</a>
+                    <a href="page-contentd3a0.html?qn=Terms%20&amp;%20conditions">Terms Of Use</a>
+                    <!-- <a href="https://tripmata.com/contact-us">Contact us</a> -->
+                </div>
+
+                <!-- <div>
+            <span>Maintained by <a href="http://wekiwork.com" style="margin-left: 2px" target="_blank" title="WekiWork Creative Lab">WCL</a></span>
+        </div> -->
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- need help? contact us -->
+    <div class="need-help-sticky" data-href="contact-us.html">
+
+        <!-- <div class="need-help-container">
+        <p>Contact us</p>
+    </div> -->
+
+        <div class="need-help-icon">
+            <i class="ion ion-ios-chatboxes"></i>
+        </div>
+    </div>
+    <div class="mobile-menu-wrapper">
+        <div class="container" style="position: relative;">
+            <!-- close button -->
+            <div class="mobile-menu-close">
+                <div class="mobile-menu-wrapper-container">
+                    <span onclick="closeMobileMenu()">
+                        <i class="ion ion-close"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- menu list -->
+            <div class="mobile-menu-list">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="stays.html">Stays</a>
+                    </li>
+
+                    <li>
+                        <a href="rentals.html">Car Rentals</a>
+                    </li>
+
+                    <li>
+                        <a href="explore-properties.html">Explore Properties</a>
+                    </li>
+
+                    <li>
+                        <a href="explore-vehicles.html">Explore Vehicles</a>
+                    </li>
+
+                    <li>
+                        <a href="login-to-start-listing.html">Start Listing</a>
+                    </li>
+
+                    <li>
+                        <a href="my-accountac91.html?redirectTo=https%3A%2F%2Ftripmata.com%2Fsign-up">My Account</a>
+                    </li>
+
+                    <li>
+                        <a href="contact-us.html">Contact Support</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- javascripts -->
+    <script type="application/javascript" src="assets/js/lozad.js"></script>
+    <script type="application/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/deffer.min.js"></script>
+    <!-- search container -->
+    <div class="search-container">
+
+        <span class="search-container-close" onclick="closeSearchContainer()">
+            <i class="ion ion-close"></i>
+        </span>
+
+        <div class="container">
+            <!-- property -->
+            <div class="search-list property active">
+                <form action="https://tripmata.com/explore-properties" class="reservation-area" method="POST">
+                    <input type="hidden" name="CSRF_TOKEN"
+                        value="czoyMzQ6IjsiczoyMTY6Ij09d3E5S3k5bWJXN3RWWkwzUTI0eWZWY1k0eUNxNlkzamdnMXZLbjdEem5UbXo3TW9NQm1LQStERThPbTZ2YThWZmFyL0g5eVcwSVd0MUprdHB5OEE1RlA1WUhGRlZ5ZThUcXZmWHpnaVQyN0JDZWorQ0NLcC91L0QyRlJPQVZDbEY2ektKS3gwVFNWV2ZpS0lDUVZnSElMcVU3SVl1NkFNYUxzWVpqQ2xnQ2V6YWxoWnJ6c1lwakVITDFickxPb2ZTb29wTGxmeG1PMGlkbDFkKzU2OFNzTSI7Ijo1MjI6cyI7" />
+                    <input type="hidden" name="adult" value="1" data-target="travel-adult">
+                    <input type="hidden" name="children" value="0" data-target="travel-children">
+                    <input type="hidden" name="rooms" value="1" data-target="travel-room">
+                    <input type="hidden" name="checkin" value="">
+                    <input type="hidden" name="checkout" value="">
+                    <div class="input-box separator">
+                        <i class="icon ion-android-pin"></i>
+                        <input type="text" name="search" id="location" placeholder="Where are you going to?">
+                    </div>
+                    <div class="input-button separator datepicker-double">
+                        <i class="icon ion-android-calendar"></i>
+                        <span class="input-text"><span class="travel-checkin">Check in</span> - <span
+                                class="travel-checkout">Check out</span></span>
+                    </div>
+                    <div class="input-button separator datepicker-single" style="display: none;">
+                        <div>
+                            <i class="icon ion-android-calendar"></i>
+                            <input type="text" value="" name="travel-checkin" class="datepicker"
+                                data-toggle="datepicker" placeholder="Checkin">
+                        </div>
+
+                        <div>
+                            <i class="icon ion-android-calendar"></i>
+                            <input type="text" value="" name="travel-checkout" class="datepicker"
+                                data-toggle="datepicker" placeholder="Checkout">
+                        </div>
+                    </div>
+                    <div class="input-button staypicker-trigger">
+                        <i class="icon ion-android-calendar"></i>
+                        <span class="input-text"><span class="travel-adult">1 Adult</span> - <span
+                                class="travel-children">0 Children</span> - <span class="travel-room">1
+                                Room</span></span>
+                        <i class="icon ion-arrow-down-b see-more"></i>
+                    </div>
+                    <div class="search-button">
+                        <button type="submit" class="btn btn-curve btn-signal"><i class="ion-android-search"></i> <span
+                                class="search-text" style="display: none;">Search</span></button>
+                    </div>
+
+                    <div class="stays-picker">
+                        <div class="stays-picker-row">
+                            <div class="text">Adults</div>
+                            <div class="controller">
+                                <span class="left-btn">
+                                    <i class="icon ion-minus"></i>
+                                </span>
+                                <input type="text" class="controller-field" onkeypress="" value="1"
+                                    data-target="adult" />
+                                <span class="right-btn">
+                                    <i class="icon ion-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="stays-picker-row">
+                            <div class="text">Children</div>
+                            <div class="controller">
+                                <span class="left-btn">
+                                    <i class="icon ion-minus"></i>
+                                </span>
+                                <input type="text" class="controller-field" onkeypress="" value="0"
+                                    data-target="children" />
+                                <span class="right-btn">
+                                    <i class="icon ion-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="stays-picker-row">
+                            <div class="text">Rooms</div>
+                            <div class="controller">
+                                <span class="left-btn">
+                                    <i class="icon ion-minus"></i>
+                                </span>
+                                <input type="text" class="controller-field" onkeypress="" value="1"
+                                    data-target="rooms" />
+                                <span class="right-btn">
+                                    <i class="icon ion-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- vehicle -->
+            <div class="search-list vehicle">
+                <form action="https://tripmata.com/explore-vehicles" class="reservation-area" method="POST">
+                    <input type="hidden" name="CSRF_TOKEN"
+                        value="czoyMzQ6IjsiczoyMTY6Ij09d1RzNnBNZ1J5NFhOOVhkRWJGWFE5d09Hb090WVQ2S1FtZXZZZGErUzlCdldXcWpBY3ppOUt5SThkbVVmSGNRMmFZVnhGN1ByVWYzZ0pVWHZlSFI2aUg1WUhGRlZ5ZThUcXZmWHpnaVQyN0JDZWorQ0NLcC91L0QyRlJPQVZDbEY2ektKS3gwVFNWV2ZpS0lDUVZnSElMcVU3SVl1NkFNYUxzWVpqQ2xnQ2V6YWxoWnJ6c1lwakVITDFickxPb2ZTb29wTGxmeG1PMGlkbDFkKzU2OFNzTSI7Ijo1MjI6cyI7" />
+                    <input type="hidden" name="checkin" value="">
+                    <input type="hidden" name="checkout" value="">
+                    <div class="input-box separator">
+                        <i class="icon ion-android-pin"></i>
+                        <input type="text" name="search" id="location" placeholder="Enter pickup location">
+                    </div>
+                    <div class="input-box input-box-small separator">
+                        <i class="icon ion-android-car"></i>
+                        <select name="vehicle-type">
+                            <option value="">Pick a Car Type</option>
+
+                            <option value="10">Convertible</option>
+
+                            <option value="9">Electric Car</option>
+
+                            <option value="4">Hatch Back</option>
+
+                            <option value="2">Sedan</option>
+
+                            <option value="7">Small</option>
+
+                            <option value="8">Sports</option>
+
+                            <option value="3">Station Wagon</option>
+
+                            <option value="1">SUV</option>
+
+                            <option value="5">Truck</option>
+
+                            <option value="6">Van</option>
+                        </select>
+                    </div>
+                    <div class="input-button datepicker-double">
+                        <i class="icon ion-android-calendar"></i>
+                        <span class="input-text"><span class="travel-checkin">Check in</span> - <span
+                                class="travel-checkout">Check out</span></span>
+                    </div>
+                    <div class="input-button separator datepicker-single" style="display: none;">
+                        <div>
+                            <i class="icon ion-android-calendar"></i>
+                            <input type="text" value="" name="travel-checkin" class="datepicker"
+                                data-toggle="datepicker" placeholder="Checkin">
+                        </div>
+
+                        <div>
+                            <i class="icon ion-android-calendar"></i>
+                            <input type="text" value="" name="travel-checkout" class="datepicker"
+                                data-toggle="datepicker" placeholder="Checkout">
+                        </div>
+                    </div>
+                    <div class="search-button">
+                        <button class="btn btn-curve btn-signal"><i class="ion-android-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- end body,html -->
+</body>
+
+<!-- Mirrored from tripmata.com/sign-up by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Apr 2022 12:09:00 GMT -->
+
+</html>
+<!--Default-->

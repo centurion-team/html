@@ -1,91 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&amp;family=Roboto:wght@700;900&amp;display=swap" rel="stylesheet">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>Home Page</title>
+    <title>Find Apartments, Condo, Hotel, B&B, Studio in Nigeria</title>
+
+    <!-- meta tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Ifeanyi Amadi, Amadiify">
+    <meta name="description"
+        content="We make it easier and cheaper for you to find hotels, homes, apartments, or car rentals in Nigeria.">
+    <meta name="keywords" content="Tripmata, Wekiwork, Tripmata.net, Tripmata nigeria">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=noja">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="robots" content="index, follow">
+    <meta name="session_public_token" content="a46c089aa5634597cc265050ba58d8e1">
+    <meta name="services" content="https://services.tripmata.com/ClientServices/">
+    <meta name="base-url" content="index.html">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./assets/logo/favicon.png" sizes="32x32">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&amp;family=Roboto:wght@700;900&amp;display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/lightpick.css" />
 </head>
+
 <body>
+    <!--home banner-->
     <div class="home-banner">
         <div class="container">
+
             <header class="app-header">
-                <a href="#" class="app-logo active">LOGO</a>
-                <div class="reservation-search-top-bar"></div>
+                <a href="stays.html" class="app-logo">
+                    <img src="./assets/logo/logo2.png" alt="logo" />
+                </a>
+
+                <div class="reservation-search-top-bar">
+
+                </div>
+
                 <div class="app-top-tabs">
-                    <a href="#" class="active">
+
+                    <a href="stays.html" class="active">
                         <i class="icon text-signal">
-                            <svg class="bk-icon -experiments-building_house" height="24" width="24" viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false">
-                                <path d="M19.905,3.607a.5.5,0,0,0-.81,0l-3,4.132a.492.492,0,0,0-.1.293V20.5a.5.5,0,0,0,.5.5h6a.5.5,0,0,0,.5-.5V8.032a.5.5,0,0,0-.095-.293ZM18.5,17.5a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm3,8a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Z"></path>
-                                <path d="M14.5,7.5h-7A.5.5,0,0,0,7,8v5.5a.5.5,0,0,0,.5.5h3a1.5,1.5,0,0,1,1.2.6l2.85,3.8a.25.25,0,0,0,.45-.15V8A.5.5,0,0,0,14.5,7.5Z"></path>
-                                <path d="M10.889,18.351a.5.5,0,0,0-.8,0L8.2,20.805a.5.5,0,0,1-.4.2H1.5a.5.5,0,0,0-.5.5v2a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5V21.333a.5.5,0,0,0-.1-.3Z"></path>
-                                <path d="M10.9,15.2a.534.534,0,0,0-.4-.2h-7a.5.5,0,0,0-.4.2l-3,4a.5.5,0,0,0,.4.8h7a.5.5,0,0,0,.4-.2l2.2-2.934a.5.5,0,0,1,.8,0L13.1,19.8a.5.5,0,1,0,.8-.6Z"></path>
-                                <path d="M23.9,5.706l-4-5.5A.515.515,0,0,0,19.5,0H10.737a1,1,0,0,0-.774.367l-3.682,4.5A1,1,0,0,0,7.055,6.5h8.19a1,1,0,0,0,.809-.412L19.1,1.906a.5.5,0,0,1,.808,0L23.1,6.294a.5.5,0,0,0,.808-.588Z"></path>
+                            <svg class="bk-icon -experiments-building_house" height="24" width="24" viewBox="0 0 24 24"
+                                role="presentation" aria-hidden="true" focusable="false">
+                                <path
+                                    d="M19.905,3.607a.5.5,0,0,0-.81,0l-3,4.132a.492.492,0,0,0-.1.293V20.5a.5.5,0,0,0,.5.5h6a.5.5,0,0,0,.5-.5V8.032a.5.5,0,0,0-.095-.293ZM18.5,17.5a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm3,8a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Z">
+                                </path>
+                                <path
+                                    d="M14.5,7.5h-7A.5.5,0,0,0,7,8v5.5a.5.5,0,0,0,.5.5h3a1.5,1.5,0,0,1,1.2.6l2.85,3.8a.25.25,0,0,0,.45-.15V8A.5.5,0,0,0,14.5,7.5Z">
+                                </path>
+                                <path
+                                    d="M10.889,18.351a.5.5,0,0,0-.8,0L8.2,20.805a.5.5,0,0,1-.4.2H1.5a.5.5,0,0,0-.5.5v2a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5V21.333a.5.5,0,0,0-.1-.3Z">
+                                </path>
+                                <path
+                                    d="M10.9,15.2a.534.534,0,0,0-.4-.2h-7a.5.5,0,0,0-.4.2l-3,4a.5.5,0,0,0,.4.8h7a.5.5,0,0,0,.4-.2l2.2-2.934a.5.5,0,0,1,.8,0L13.1,19.8a.5.5,0,1,0,.8-.6Z">
+                                </path>
+                                <path
+                                    d="M23.9,5.706l-4-5.5A.515.515,0,0,0,19.5,0H10.737a1,1,0,0,0-.774.367l-3.682,4.5A1,1,0,0,0,7.055,6.5h8.19a1,1,0,0,0,.809-.412L19.1,1.906a.5.5,0,0,1,.808,0L23.1,6.294a.5.5,0,0,0,.808-.588Z">
+                                </path>
                             </svg>
                         </i>
                         <span>Stays</span>
                     </a>
-                    <a href="#">
+
+                    <a href="halls.html" class="">
                         <i class="icon text-signal">
-                            <svg class="bk-icon -iconset-car_front" height="24" width="24" viewBox="0 0 397.244 397.244" role="presentation" aria-hidden="true" focusable="flase">
+                            <svg class="bk-icon -iconset-car_front" height="24" width="24" viewBox="0 0 397.244 397.244"
+                                role="presentation" aria-hidden="true" focusable="false">
                                 <g>
-                                    <polygon points="121.124,93.526 141.188,73.462 16.233,73.462 16.233,93.526 23.881,93.526 "></polygon>
-                                    <polygon points="373.363,93.526 381.011,93.526 381.011,73.462 256.056,73.462 276.12,93.526 	"></polygon>
-                                    <path d="M382.912,319.94h-9.549V103.075H272.164l-60.328-60.328h-26.428l-60.328,60.328H23.881V319.94h-9.549H0v34.557h397.244
+                                    <polygon
+                                        points="121.124,93.526 141.188,73.462 16.233,73.462 16.233,93.526 23.881,93.526 	" />
+                                    <polygon
+                                        points="373.363,93.526 381.011,93.526 381.011,73.462 256.056,73.462 276.12,93.526 	" />
+                                    <path
+                                        d="M382.912,319.94h-9.549V103.075H272.164l-60.328-60.328h-26.428l-60.328,60.328H23.881V319.94h-9.549H0v34.557h397.244
                             V319.94H382.912z M74.722,295.001H47.984v-69.709h26.738V295.001z M74.722,199.51H47.984v-69.708h26.738V199.51z M188.436,307.097
                             h-56.021v-121.91h56.021V307.097z M168.303,126.062c0-16.744,13.574-30.319,30.319-30.319c16.745,0,30.319,13.575,30.319,30.319
                             c0,16.745-13.574,30.318-30.319,30.318C181.878,156.38,168.303,142.807,168.303,126.062z M264.829,307.097h-56.021v-121.91h56.021
-                            V307.097z M349.26,295.001h-26.738v-69.709h26.738V295.001z M349.26,199.51h-26.738v-69.708h26.738V199.51z"></path>
+                            V307.097z M349.26,295.001h-26.738v-69.709h26.738V295.001z M349.26,199.51h-26.738v-69.708h26.738V199.51z" />
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
                                 </g>
                             </svg>
                         </i>
                         <span>Halls</span>
                     </a>
-                    <a href="#">
+
+                    <a href="rentals.html" class="">
                         <i class="icon text-signal">
-                            <svg class="bk-icon -iconset-car_front" height="24" width="24" viewBox="0 0 128 128" role="presentation" aria-hidden="true" focusable="flase">
-                                <path d="M109.2 48.9L100 26a16 16 0 0 0-14.8-10H42.8A16 16 0 0 0 28 26l-9.1 23A16 16 0 0 0 8 64v24a8 8 0 0 0 8 8v8a8 8 0 0 0 16 0v-8h64v8a8 8 0 0 0 16 0v-8a8 8 0 0 0 8-8V64a16 16 0 0 0-10.8-15.1zM35.4 29a8 8 0 0 1 7.4-5h42.4a8 8 0 0 1 7.4 5l7.6 19H27.8zM26 76a10 10 0 1 1 10-10 10 10 0 0 1-10 10zm76 0a10 10 0 1 1 10-10 10 10 0 0 1-10 10z">
+                            <svg class="bk-icon -iconset-car_front" height="24" width="24" viewBox="0 0 128 128"
+                                role="presentation" aria-hidden="true" focusable="false">
+                                <path
+                                    d="M109.2 48.9L100 26a16 16 0 0 0-14.8-10H42.8A16 16 0 0 0 28 26l-9.1 23A16 16 0 0 0 8 64v24a8 8 0 0 0 8 8v8a8 8 0 0 0 16 0v-8h64v8a8 8 0 0 0 16 0v-8a8 8 0 0 0 8-8V64a16 16 0 0 0-10.8-15.1zM35.4 29a8 8 0 0 1 7.4-5h42.4a8 8 0 0 1 7.4 5l7.6 19H27.8zM26 76a10 10 0 1 1 10-10 10 10 0 0 1-10 10zm76 0a10 10 0 1 1 10-10 10 10 0 0 1-10 10z">
                                 </path>
                             </svg>
                         </i>
                         <span>Car Rentals</span>
                     </a>
+
+                    <!-- call us today -->
                     <div class="call-us-top-area">
                         <div class="image-area">
-                            <img src="./images/call-center-unnamed.jpg">
+                            <img src="assets/img/call-center-unnamed.jpg" />
                         </div>
                         <div class="content-area">
                             <p>You can call us today</p>
                             <ul>
                                 <li>
-                                    <a href="javascript:void(0)" class="dropdown" onclick="onclick=show_dropdown('.dropdown-call-list', event)">
-                                        <h2>0123456789</h2>
-                                        <i class="ion ion-arrow-down-b">
-                                            
-                                        </i>
+                                    <a href="javascript:void(0)" class="dropdown"
+                                        onclick="show_dropdown('.dropdown-call-list', event)">
+                                        <h2>08162417819</h2> <i class="ion ion-arrow-down-b"></i>
                                     </a>
-                                    <ul class="dropdown-call-list" style="display: none;">
-                                        <li>
-                                            <a href="#">
+                                    <ul class="dropdown-call-list">
+                                        <li><a href="tel:+2348162417819">
                                                 <span class="t-text">Reservation</span>
-                                                <h2>
-                                                    <i class="ion ion-andriod-call"></i>
-                                                    <span>012345689</span>
+                                                <h2><i class="ion ion-android-call"></i> <span>+2348162417819</span>
                                                 </h2>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="#">
-                                                <span class="t-text">Customer care</span>
-                                                <h2>
-                                                    <i class="ion ion-andriod-call"></i>
-                                                    <span>012345689</span>
+
+                                        <li><a href="tel:+2349088358213">
+                                                <span class="t-text">Customer Care</span>
+                                                <h2><i class="ion ion-android-call"></i> <span>+2349088358213</span>
                                                 </h2>
                                             </a>
                                         </li>
@@ -94,156 +170,175 @@
                             </ul>
                         </div>
                     </div>
-                </div> 
+                </div>
+
                 <nav class="app-navigation">
-                    <a href="#" data-btn="Please wait..." class="btn btn-curve btn-signal">Start Listing</a>
-                    <a href="#" class="btn btn-curve btn-sign-in">
+                    <a href="login-to-start-listing.html" data-btn="Please wait.."
+                        class="btn btn-curve btn-signal">Start Listing</a>
+
+                    <a href="login.html"
+                        class="btn btn-curve btn-sign-in">
+
                         <span class="btn-icon btn btn-curve">
-                            <i class="ion-android-person">
-                                
-                            </i>
+                            <i class="ion-android-person"></i>
                         </span>
+
                         <span class="text">My account</span>
                     </a>
                 </nav>
+
                 <div class="app-mobile-menu">
-                    <a href="javascript:void" data-view="stays" onclick="showSearch(this);">
-                    <i class="ion ion-search"></i>
-                </a>
-                <a href="#">
-                    <i class="ion ion-person"></i>
-                </a>
-                <nav class="app-mobile-nav" onclick="showMobileMenu()">
-                    <span></span>
-                    <span></span>
-                </nav>
+
+
+                    <a href="javascript:void(0)" data-view="stays" onclick="showSearch(this);">
+                        <i class="ion ion-search"></i>
+                    </a>
+
+                    <a href="my-account53af.html?redirectTo=https%3A%2F%2Ftripmata.com%2Fstays">
+                        <i class="ion ion-person"></i>
+                    </a>
+
+                    <nav class="app-mobile-nav" onclick="showMobileMenu()">
+                        <span></span>
+                        <span></span>
+                    </nav>
                 </div>
             </header>
-
-
+            <!-- main reservation area -->
             <section class="main-reservation-area">
-                <h1 class="animate__animated animate__fadeInUp animate__delay-0-5s">
-                    "Find homes or hotels "<br>" on a few clicks"
-                </h1>
+                <h1 class="animate__animated animate__fadeInUp animate__delay-0-5s">Find homes or hotels <br> in a few
+                    clicks</h1>
+
                 <div class="animate__animated animate__fadeInUp animate__delay-0-5s">
-                    <form action="" class="reservation-area read-all-input" method="" autocomplete="off">
-                        <input type="hidden" name="CSRF_TOKEN" value="">
+                    <form action="https://tripmata.com/explore-properties" class="reservation-area read-all-input"
+                        method="POST" autocomplete="off">
+                        <input type="hidden" name="CSRF_TOKEN"
+                            value="czoyMzQ6IjsiczoyMTY6Ij09UVF4VG5DVkRueUpjVHh0OHk3ZGhob2JMbC9tMmtrWGNnUEdiZkJWdThxOFM5NnJ5RVRSREdkYktibUNMaEZHejhNOWhEYVF2aGtVV0M1bGgvTUduTVkxM2ZhczZUSExaRGg5T1pNYmN4NVRDZWorQ0NLcC91L0QyRlJPQVZDbEY2ektKS3gwVFNWV2ZpS0lDUVZnSElMcVU3SVl1NkFNYUxzWVpqQ2xnQ2V6YWxoWnJ6c1lwakVITDFickxPb2ZTb29wTGxmeG1PMGlkbDFkKzU2OFNzTSI7Ijo1MjI6cyI7" />
                         <input type="hidden" name="adult" value="1" data-target="travel-adult">
                         <input type="hidden" name="children" value="0" data-target="travel-children">
                         <input type="hidden" name="rooms" value="1" data-target="travel-room">
-                        <input type="hidden" name="checkin" value>
-                        <input type="hidden" name="checkout" value>
+                        <input type="hidden" name="checkin" value="">
+                        <input type="hidden" name="checkout" value="">
                         <div class="input-box separator relative-position">
-                            <i class="icon ion-andriod-pin">
-                            </i>
-                            <input type="text" name="search" class="elastic-search" id="location" autocomplete="new-password" placeholder="Whereare you going to?">
+                            <i class="icon ion-android-pin"></i>
+                            <input type="text" name="search" class="elastic-search" id="location"
+                                autocomplete="new-password" placeholder="Where are you going to?">
                             <div class="search-dropdown">
-                                <div class="preloader-line"></div>
-                                <div class="preloader-line"></div>
-                                <div class="preloader-line"></div>
+                                <a href="#">
+                                    <i class="ion ion-pin"></i>
+                                    <span>Abuja</span>
+                                </a>
                             </div>
                         </div>
                         <div class="input-button separator datepicker-double">
-                            <i class="icon ion-andriod-calender">
-                                
-                            </i>
-                            <span class="input-text">
-                                <span class="travel-checkin">Check in</span>
-                                " - "
-                                <span class="travel-checkout">check out</span>
-                            </span>
+                            <i class="icon ion-android-calendar"></i>
+                            <span class="input-text"><span class="travel-checkin">Check in</span> - <span
+                                    class="travel-checkout">Check out</span></span>
                         </div>
                         <div class="input-button separator datepicker-single" style="display: none;">
                             <div>
-                                <i class="icon ion-andriod-calender"></i>
-                                <input type="text" value name="travel-checkin" class="datepicker" data-toggle="datepicker" placeholder="Checkin">
+                                <i class="icon ion-android-calendar"></i>
+                                <input type="text" value="" name="travel-checkin" class="datepicker"
+                                    data-toggle="datepicker" placeholder="Checkin">
                             </div>
+
                             <div>
-                                <i class="icon ion-andriod-calender"></i>
-                                <input type="text" value name="travel-checkout" class="datepicker" data-toggle="datepicker" placeholder="checkout">
+                                <i class="icon ion-android-calendar"></i>
+                                <input type="text" value="" name="travel-checkout" class="datepicker"
+                                    data-toggle="datepicker" placeholder="Checkout">
                             </div>
                         </div>
                         <div class="input-button staypicker-trigger">
-                            <i class="icon ion-andriod-calender">
-                            </i>
-                            <span class="input-text">
-                                <span class="travel-adult">1 Adult</span>
-                                " - "
-                                <span class="travel-children">0 children</span>
-                                " - "
-                                <span class="travel-room">1 Room</span>
-                            </span>
-                            <i class="icon ion-arrow-down-b see-more">
-                            </i>
+                            <i class="icon ion-android-calendar"></i>
+                            <span class="input-text"><span class="travel-adult">1 Adult</span> - <span
+                                    class="travel-children">0 Children</span> - <span class="travel-room">1
+                                    Room</span></span>
+                            <i class="icon ion-arrow-down-b see-more"></i>
                         </div>
                         <div class="search-button">
-                            <button type="submit" data-btn data-parent=".reservation-area" class="btn btn-curve btn-signal">
-                                <i class="ion-andriod-search">
-                                </i>
-                                <span class="search-text" style="display: none;">search</span>
-                            </button>
+                            <button type="submit" data-btn="" data-parent=".reservation-area"
+                                class="btn btn-curve btn-signal"><i class="ion-android-search"></i> <span
+                                    class="search-text" style="display: none;">Search</span></button>
                         </div>
+
                         <div class="stays-picker">
                             <div class="stays-picker-row">
                                 <div class="text">Adults</div>
                                 <div class="controller">
                                     <span class="left-btn">
-                                        <i class="icon ion-minu"></i>
+                                        <i class="icon ion-minus"></i>
                                     </span>
-                                    <input type="text" class="controller-field" value="1" data-target="adult">
+                                    <input type="text" class="controller-field" onkeypress="" value="1"
+                                        data-target="adult" />
                                     <span class="right-btn">
                                         <i class="icon ion-plus"></i>
                                     </span>
                                 </div>
                             </div>
+
                             <div class="stays-picker-row">
-                                <div class="text">children</div>
+                                <div class="text">Children</div>
                                 <div class="controller">
                                     <span class="left-btn">
-                                        <i class="icon ion-minu"></i>
+                                        <i class="icon ion-minus"></i>
                                     </span>
-                                    <input type="text" class="controller-field" value="0" data-target="children>
+                                    <input type="text" class="controller-field" onkeypress="" value="0"
+                                        data-target="children" />
                                     <span class="right-btn">
                                         <i class="icon ion-plus"></i>
                                     </span>
                                 </div>
                             </div>
+
                             <div class="stays-picker-row">
                                 <div class="text">Rooms</div>
                                 <div class="controller">
                                     <span class="left-btn">
-                                        <i class="icon ion-minu"></i>
+                                        <i class="icon ion-minus"></i>
                                     </span>
-                                    <input type="text" class="controller-field" value="1" data-target="rooms">
+                                    <input type="text" class="controller-field" onkeypress="" value="1"
+                                        data-target="rooms" />
                                     <span class="right-btn">
                                         <i class="icon ion-plus"></i>
                                     </span>
                                 </div>
                             </div>
                         </div>
+
                     </form>
+
+
                     <section class="last-minute-deal">
-                        <img src="./images/deal-tag.png">
+                        <img src="assets/img/deal-tag.png">
                         <span>Last minute deals starts in </span>
-                        <span class="deal-counter" data-time="05/12/2022 8:00:00 pm">07:29:19</span>
-                        <a href="#">Get notified!</a>
+                        <span class="deal-counter" data-time="04/12/2022 8:00:00 pm">00:00:00</span>
+                        <a href="subscribe.html">Get notified!</a>
                     </section>
                 </div>
+
             </section>
         </div>
     </div>
 
+    <!--featured properties-->
     <div class="container animate__animated animate__fadeIn animate__delay-0-5s">
+
         <section class="section-row featured-places-section">
+            <!-- section header -->
             <section class="section-row-header section-row-header-caption">
                 <h1>Explore Nigeria</h1>
                 <p class="text-gray size-60 text">This popular places have a lot to offer.</p>
             </section>
+
+            <!--- featured places -->
             <section class="featured-places">
-                <a class="group-box group-box-full half-box" href="#">
+
+                <a class="group-box group-box-full half-box" href="explore-propertiescbb0.html?place=p68oekkclqauk251">
                     <div class="group-box-banner">
-                        <img class="lozad" src="./images/abuja-city.jpg" data-src="./images/abuja-city.jpg" alt="image banner for abuja" data-loaded="true">
+                        <img class="lozad" src="./assets/blur/abuja-city.jpg" data-src="./assets/files/abuja-city.jpg"
+                            alt="image banner for abuja">
                     </div>
+
                     <div class="group-box-content">
                         <div>
                             <h2>Abuja</h2>
@@ -251,382 +346,669 @@
                         </div>
                     </div>
                 </a>
-                <a class="group-box group-box-full half-box" href="#">
+                <a class="group-box group-box-full half-box" href="explore-properties51f6.html?place=ld2qodq3m97rt941">
                     <div class="group-box-banner">
-                        <img class="lozad" src="./images/calabar-city.jpg" data-src="./images/calabar-city.jpg" alt="image banner for calabar" data-loaded="true">
+                        <img class="lozad" src="./assets/blur/calabar-city.jpg"
+                            data-src="./assets/files/calabar-city.jpg" alt="image banner for akwa ibom">
                     </div>
+
                     <div class="group-box-content">
                         <div>
                             <h2>Akwa ibom</h2>
-                            <p>1 properties</p>
+                            <p>1 property</p>
                         </div>
                     </div>
                 </a>
-                <a class="group-box group-box-full" href="#">
+                <a class="group-box group-box-full " href="explore-propertiesa689.html?place=367kmb856nfkql1b">
                     <div class="group-box-banner">
-                        <img class="lozad" src="./images/lagos-beach.jpg" data-src="./images/lagos-beach.jpg" alt="image banner for lagos-beach" data-loaded="true">
+                        <img class="lozad" src="./assets/blur/lagos-beach.jpg" data-src="./assets/files/lagos-beach.jpg"
+                            alt="image banner for lagos">
                     </div>
+
                     <div class="group-box-content">
                         <div>
                             <h2>Lagos</h2>
-                            <p>0 properties</p>
+                            <p>0 property</p>
                         </div>
                     </div>
                 </a>
-                <a class="group-box group-box-full" href="#">
+                <a class="group-box group-box-full " href="explore-propertiesc1e0.html?place=z5d4v95s6ks31w6r">
                     <div class="group-box-banner">
-                        <img class="lozad" src="./images/OlumoRock.jpg" data-src="./images/OlumoRock.jpg" alt="image banner for OlumoRock" data-loaded="true">
+                        <img class="lozad" src="./assets/blur/OlumoRock.jpg" data-src="./assets/files/OlumoRock.jpg"
+                            alt="image banner for ogun">
                     </div>
+
                     <div class="group-box-content">
                         <div>
                             <h2>Ogun</h2>
-                            <p>0 properties</p>
+                            <p>0 property</p>
                         </div>
                     </div>
                 </a>
-                <a class="group-box group-box-full" href="#">
+                <a class="group-box group-box-full " href="explore-properties13cc.html?place=s675wpxdy2616qg4">
                     <div class="group-box-banner">
-                        <img class="lozad" src="./images/Media-city-Ibadan.jpg
-                        " data-src="./images/Media-city-Ibadan.jpg" alt="image banner for Media-city-Ibadan" data-loaded="true">
+                        <img class="lozad" src="./assets/blur/Media-city-Ibadan.jpg"
+                            data-src="./assets/files/Media-city-Ibadan.jpg" alt="image banner for oyo">
                     </div>
+
                     <div class="group-box-content">
                         <div>
                             <h2>Oyo</h2>
-                            <p>0 properties</p>
+                            <p>0 property</p>
                         </div>
                     </div>
                 </a>
+
             </section>
-        </section>
-        <section class="property-type-wrapper">
-            <div class="container">
-                <section class="section-row">
 
-                    <section class="section-row-header">
-                        <h1>Browse by property type</h1>
-                        <div class="navigator">
-                            <a href="#" title="browse to the left" class="text-signal">
-                                <i class="icon icon-big ion-andriod-arrow-back"></i>
-                            </a>
-                            <a href="#" title="browse to the right" class="text-signal">
-                                <i class="icon icon-big ion-andriod-arrow-forward"></i>
-                            </a>
-                        </div>
-                    </section>
-                    <section class="group-flex4-list">
-                        <a href="#" class="group-box group-box-full">
-                            <div class="group-box-banner">
-                                <img class="lozad" src="./images/hotel-3.jpg" data-src="./images/hotel-3.jpg" alt="image banner 1" data-loaded="true">
-                            </div>
-                            <div class="group-box-content">
-                                <h2>Hotel</h2>
-                                <p>204 hotels</p>
-                            </div>
-                        </a>
-                        <a href="#" class="group-box group-box-full">
-                            <div class="group-box-banner">
-                                <img class="lozad" src="./images/b-and-b.jpg" data-src="./images/b-and-b.jpg" alt="image banner 1" data-loaded="true">
-                            </div>
-                            <div class="group-box-content">
-                                <h2>B&B</h2>
-                                <p>0 b&b</p>
-                            </div>
-                        </a>
-                        <a href="#" class="group-box group-box-full">
-                            <div class="group-box-banner">
-                                <img class="lozad" src="./images/condos.jpg" data-src="./images/condos.jpg" alt="image banner 1" data-loaded="true">
-                            </div>
-                            <div class="group-box-content">
-                                <h2>Condor</h2>
-                                <p>0 condor</p>
-                            </div>
-                        </a>
-                        <a href="#" class="group-box group-box-full">
-                            <div class="group-box-banner">
-                                <img class="lozad" src="./images/apartments.jpg" data-src="./images/apartments.jpg" alt="image banner 1" data-loaded="true">
-                            </div>
-                            <div class="group-box-content">
-                                <h2>Apartment</h2>
-                                <p>91 apartments</p>
-                            </div>
-                        </a>
-                    </section>
-                </section>
-            </div>
         </section>
 
-
-        <div class="container">
-            <section class="section-row">
-                <section class="section-row-header">
-                    <h1>Destinations we love</h1>
-                </section>
-
-                <section class="destination-list-tab">
-                    <ul>
-                        <li class="active" data-target="destination-cities">States</li>
-                        <li data-target="destination-interest">Places of interest</li>
-                    </ul>
-                </section>
-                <section class="destination-list-tab-body">
-                    
-                    <ul data-role="destination-cities" class="active">
-                        <li>
-                            <a href="#">Abia</a>
-                        </li>
-                        <li>
-                            <a href="#">Abuja</a>
-                        </li>
-                        <li>
-                            <a href="#">Adamawa</a>
-                        </li>
-                        <li>
-                            <a href="#">Akwa Ibom</a>
-                        </li>
-                        <li>
-                            <a href="#">Anambra</a>
-                        </li>
-                        <li>
-                            <a href="#">Bauchi</a>
-                        </li>
-                        <li>
-                            <a href="#">Bayelsa</a>
-                        </li>
-                        <li>
-                            <a href="#">Benue</a>
-                        </li>
-                        <li>
-                            <a href="#">Borno</a>
-                        </li>
-                        <li>
-                            <a href="#">Cross river</a>
-                        </li>
-                        <li>
-                            <a href="#">Delta</a>
-                        </li>
-                        <li>
-                            <a href="#">Ebonyi</a>
-                        </li>
-                        <li>
-                            <a href="#">Edo</a>
-                        </li>
-                        <li>
-                            <a href="#">Ekiti</a>
-                        </li>
-                        <li>
-                            <a href="#">Enugu</a>
-                        </li>
-                        <li>
-                            <a href="#">Gombe</a>
-                        </li>
-                        <li>
-                            <a href="#">Imo</a>
-                        </li>
-                        <li>
-                            <a href="#">Jigawa</a>
-                        </li>
-                        <li>
-                            <a href="#">Kaduna</a>
-                        </li>
-                        <li>
-                            <a href="#">Kano</a>
-                        </li>
-                        <li>
-                            <a href="#">Katsina</a>
-                        </li>
-                        <li>
-                            <a href="#">Kebbi</a>
-                        </li>
-                        <li>
-                            <a href="#">Kogi</a>
-                        </li>
-                        <li>
-                            <a href="#">Kwara</a>
-                        </li>
-                        <li>
-                            <a href="#">Lagos</a>
-                        </li>
-                        <li>
-                            <a href="#">Nasarawa</a>
-                        </li>
-                        <li>
-                            <a href="#">Niger</a>
-                        </li>
-                        <li>
-                            <a href="#">Ogun</a>
-                        </li>
-                        <li>
-                            <a href="#">Ondo</a>
-                        </li>
-                        <li>
-                            <a href="#">Osun</a>
-                        </li>
-                        <li>
-                            <a href="#">Oyo</a>
-                        </li>
-                        <li>
-                            <a href="#">Plateau</a>
-                        </li>
-                        <li>
-                            <a href="#">Rivers</a>
-                        </li>
-                        <li>
-                            <a href="#">Sokoto</a>
-                        </li>
-                        <li>
-                            <a href="#">Taraba</a>
-                        </li>
-                        <li>
-                            <a href="#">Yobe</a>
-                        </li>
-                        <li>
-                            <a href="#">Zamfara</a>
-                        </li>
-                    </ul>
-                    <ul data-role="destination-intereest">
-                        <li>
-                            <a href="#">
-                                " Abuja "
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                " Akwa ibom "
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                " Enugu "
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </section>
-        </div>
-        <div class="container content-center">
-            <a href="#" class="btn btn-curve btn-signal">List a property</a>
-        </div>
-        <section class="building-container">
-            <img alt="building image" src="./images/building2.png">
-        </section>
-        <div class="loader-wrapper loader-wrapper-fixed" style="opacity: 0; display: none">
-            <div class="loader-header" style="opacity: 0;">
-                <img src="#" alt="tripmata icon">
-            </div>
-            <div class="loader" style="opacity: 0;"></div>
-        </div>
     </div>
 
+    <!--destinations we love-->
+    <div class="container">
+        <section class="section-row">
 
+            <!-- section header -->
+            <section class="section-row-header">
+                <h1>Destinations we love</h1>
+            </section>
+
+            <!-- destination tab -->
+            <section class="destination-list-tab">
+                <ul>
+                    <!-- <li class="active" data-target="destination-regions">Regions</li> -->
+                    <li class="active" data-target="destination-cities">States</li>
+                    <li data-target="destination-interest">Places of interest</li>
+                </ul>
+            </section>
+
+            <!-- destination tab body -->
+            <section class="destination-list-tab-body">
+                <!-- <ul data-role="destination-regions">
+                <li>
+                    <a href="">
+                        Nigeria
+                        <span class="text-gray">12,800 properties</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Canada
+                        <span class="text-gray">10,800 properties</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Ghana
+                        <span class="text-gray">12,800 properties</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        South Africa
+                        <span class="text-gray">12,800 properties</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Tunisia
+                        <span class="text-gray">2,800 properties</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Russia
+                        <span class="text-gray">800 properties</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Russia
+                        <span class="text-gray">800 properties</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Russia
+                        <span class="text-gray">800 properties</span>
+                    </a>
+                </li>
+            </ul> -->
+
+                <ul data-role="destination-cities" class="active">
+
+                    <li>
+                        <a href="explore-properties6c0c.html?place=451rbx5zyzfahg6u">
+                            Abia </a>
+                    </li>
+                    <li>
+                        <a href="explore-propertiescbb0.html?place=p68oekkclqauk251">
+                            Abuja
+                            <!-- <span class="text-gray">310 properties</span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties0250.html?place=f875c7f6451rk5l8">
+                            Adamawa </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties51f6.html?place=ld2qodq3m97rt941">
+                            Akwa ibom
+                            <!-- <span class="text-gray">1 property</span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="explore-propertiescf1f.html?place=jif5glv6mz95c89v">
+                            Anambra </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties2a58.html?place=58teiv65783n2ctq">
+                            Bauchi </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties7389.html?place=q6x573zfk6le114v">
+                            Bayelsa </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties656a.html?place=3e7x9g781i1ndj5e">
+                            Benue </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties5d82.html?place=8m93s979722e2b7z">
+                            Borno </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties0d85.html?place=vuc16u7kl62cx9na">
+                            Cross river
+                            <!-- <span class="text-gray">1 property</span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties4666.html?place=w7p5vr915n7j1c8n">
+                            Delta </a>
+                    </li>
+                    <li>
+                        <a href="explore-propertiesd4f4.html?place=a9mhh54rsg997v4e">
+                            Ebonyi </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties20d7.html?place=9n1pm822lqki663e">
+                            Edo </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties1b60.html?place=iz6f7nc32aw6h56d">
+                            Ekiti </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties4f1e.html?place=9q2ifm49m9q8on72">
+                            Enugu
+                            <!-- <span class="text-gray">1 property</span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties1e0c.html?place=o72s6985wwo3sc48">
+                            Gombe </a>
+                    </li>
+                    <li>
+                        <a href="explore-propertiesc8e1.html?place=1f5hayu4hsct63ut">
+                            Imo </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties2509.html?place=29pv89r2f3a2x5ml">
+                            Jigawa </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties2b08.html?place=211f9gnc9o9atuq8">
+                            Kaduna </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties80eb.html?place=v56r6468tf8s6pcm">
+                            Kano </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties1915.html?place=5odk43r7t1z72o65">
+                            Katsina </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties05dc.html?place=3887j33exbq5y9q8">
+                            Kebbi </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties4d7b.html?place=f1qozpi959w48d56">
+                            Kogi </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties2db8.html?place=3pfuw7z8g72bym76">
+                            Kwara </a>
+                    </li>
+                    <li>
+                        <a href="explore-propertiesa689.html?place=367kmb856nfkql1b">
+                            Lagos </a>
+                    </li>
+                    <li>
+                        <a href="explore-propertiesaed0.html?place=71z4t5okbu8ql7li">
+                            Nassarawa </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties9dd1.html?place=1th1n636m3472u36">
+                            Niger </a>
+                    </li>
+                    <li>
+                        <a href="explore-propertiesc1e0.html?place=z5d4v95s6ks31w6r">
+                            Ogun </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties3fcf.html?place=pq3er2k369c4ul57">
+                            Ondo </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties1225.html?place=624m2m79zkylchx2">
+                            Osun </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties13cc.html?place=s675wpxdy2616qg4">
+                            Oyo </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties2aed.html?place=n1cd7kldyki2s6rk">
+                            Plateau </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties8f61.html?place=8lt993y9xe3437gu">
+                            Rivers </a>
+                    </li>
+                    <li>
+                        <a href="explore-propertiesf1c0.html?place=5bk5zow726v3498y">
+                            Sokoto </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties43a4.html?place=7283r454l6kn97p4">
+                            Taraba </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties8551.html?place=zw48c8idix3watdm">
+                            Yobe </a>
+                    </li>
+                    <li>
+                        <a href="explore-propertiesdcf5.html?place=umw87788a5e53a1o">
+                            Zamfara </a>
+                    </li>
+                </ul>
+
+                <ul data-role="destination-interest">
+                    <li>
+                        <a href="explore-propertiescbb0.html?place=p68oekkclqauk251">
+                            Abuja
+                            <!-- <span class="text-gray">310 properties</span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties51f6.html?place=ld2qodq3m97rt941">
+                            Akwa ibom
+                            <!-- <span class="text-gray">1 property</span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties0d85.html?place=vuc16u7kl62cx9na">
+                            Cross river
+                            <!-- <span class="text-gray">1 property</span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="explore-properties4f1e.html?place=9q2ifm49m9q8on72">
+                            Enugu
+                            <!-- <span class="text-gray">1 property</span> -->
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+        </section>
+    </div>
+
+    <!--listing button-->
+    <div class="container content-center">
+        <a href="login-to-start-listing.html" class="btn btn-curve btn-signal">List a property</a>
+    </div>
+
+    <!--building image-->
+    <section class="building-container">
+        <img alt="building image" src="assets/img/building2.png">
+    </section>
+
+    <!-- loader -->
+    <div class="loader-wrapper loader-wrapper-fixed">
+        <div class="loader-header">
+            <img src="assets/img/logo-loader.jpg" alt="tripmata icon" />
+            <!-- <h3>Tripmata</h3> -->
+        </div>
+        <div class="loader"></div>
+    </div>
     <footer>
+        <!-- footer styling -->
         <section class="gray-bg main-footer">
+            <!-- add container -->
             <div class="container">
                 <div class="main-footer-table">
+                    <!-- list footer -->
                     <aside class="footer-row">
                         <h3>About</h3>
                         <ul>
-                            <li>
-                                <a href="#">How it works</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact our support</a>
-                            </li>
-                            <li>
-                                <a href="#">Cooperate membership</a>
-                            </li>
-                            <li>
-                                <a href="#">Explore Properties</a>
-                            </li>
-                            <li>
-                                <a href="#">Explore Vehicles</a>
-                            </li>
-                            <li>
-                                <a href="#">Careers</a>
-                            </li>
-                            <li>
-                                <a href="#">About Us</a>
-                            </li>
-                            <li>
-                                <a href="#">Blog</a>
-                            </li>
+                            <li><a href="page-contentf214.html?qn=How%20It%20Works">How It Works</a></li>
+                            <li><a href="contact-us.html">Contact our support</a></li>
+                            <li><a href="page-content85ec.html?qn=Cooperate%20membership">Cooperate membership</a></li>
+                            <li><a href="explore-properties.html">Explore Properties</a></li>
+                            <li><a href="explore-vehicles.html">Explore Vehicles</a></li>
+                            <li><a href="app/coming-soon2491.html?pg=careers">Careers</a></li>
+                            <li><a href="page-content9e1b.html?qn=About-Us">About Us</a></li>
+                            <li><a href="app/coming-soond09d.html?pg=blog">Blog</a></li>
                         </ul>
                     </aside>
+
                     <aside class="footer-row">
                         <h3>Community</h3>
                         <ul>
-                            <li>
-                                <a href="#">Diversity</a>
+                            <li><a href="page-content2fcf.html?qn=Diversity%20&amp;%20Belonging">Diversity &
+                                    Belonging</a></li>
+                            <li><a href="page-content5241.html?qn=Against%20Discrimination">Against Discrimination</a>
                             </li>
-                            <li>
-                                <a href="#">Against Discrimination</a>
-                            </li>
-                            <li>
-                                <a href="#">Accessibility</a>
-                            </li>
-                            <li>
-                                <a href="#">Inivite Friends</a>
-                            </li>
-                            <li>
-                                <a href="#">Coupons</a>
-                            </li>
+                            <li><a href="page-content088b.html?qn=Accessibility">Accessibility</a></li>
+                            <li><a href="app/coming-soon9d9d.html?pg=invite%20friends">Invite Friends</a></li>
+                            <li><a href="app/coming-soon9be4.html?pg=coupons">Coupons</a></li>
                         </ul>
                     </aside>
+
                     <aside class="footer-row">
                         <h3>Become a host</h3>
                         <ul>
-                            <li>
-                                <a href="#">List your property</a>
-                            </li>
-                            <li>
-                                <a href="#">List your Vechicle</a>
-                            </li>
-                            <li>
-                                <a href="#">Help Center</a>
-                            </li>
-                            <li>
-                                <a href="#">Frequently Asked Questions</a>
-                            </li>
+                            <li><a href="login-to-start-listing.html">List your Property</a></li>
+                            <li><a href="login-to-start-listing.html">List your Vehicle</a></li>
+                            <li><a href="app/coming-soon7ae9.html?pg=help-center">Help Center</a></li>
+                            <li><a href="app/coming-soond1b1.html?pg=faq">Frequently Asked Questions</a></li>
                         </ul>
                     </aside>
+
                     <aside class="footer-row">
                         <h3>Booking support</h3>
                         <ul>
-                            <li>
-                                <a href="#">Updates for COVID-19</a>
+                            <li><a href="page-content6f20.html?qn=Updates%20for%20COVID-19">Updates for COVID-19</a>
                             </li>
-                            <li>
-                                <a href="#">Cancellation</a>
-                            </li>
-                            <li>
-                                <a href="#">Neighborhood Support</a>
-                            </li>
-                            <li>
-                                <a href="#">Ttrust & Safety</a>
-                            </li>
-                            <li>
-                                <a href="#">Get amazing deals</a>
-                            </li>
+                            <li><a href="page-content84a0.html?qn=Cancellation">Cancellation</a></li>
+                            <li><a href="page-contentc7f7.html?qn=Neighborhood%20Support">Neighborhood Support</a></li>
+                            <li><a href="page-content7db2.html?qn=Trust%20&amp;%20Safety">Trust & Safety</a></li>
+                            <li><a href="subscribe.html">Get amazing deals</a></li>
                         </ul>
                     </aside>
                 </div>
             </div>
         </section>
+
+        <!-- footer bottom -->
         <section class="footer-bottom">
             <div class="container wrapper-flex flex-space-between flex-middle">
                 <div>
                     <span>© 2022 All rights reserved</span>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms Of Use</a>
+                    <a href="page-contentb672.html?qn=Privacy%20Policy">Privacy Policy</a>
+                    <a href="page-contentd3a0.html?qn=Terms%20&amp;%20conditions">Terms Of Use</a>
+                    <!-- <a href="https://tripmata.com/contact-us">Contact us</a> -->
                 </div>
+
+                <!-- <div>
+            <span>Maintained by <a href="http://wekiwork.com" style="margin-left: 2px" target="_blank" title="WekiWork Creative Lab">WCL</a></span>
+        </div> -->
             </div>
         </section>
     </footer>
 
-    <div class="need-help-sticky" data-href="#">
+
+
+
+
+
+
+
+    <!-- need help? contact us -->
+    <div class="need-help-sticky" data-href="contact-us.html">
+
+        <!-- <div class="need-help-container">
+        <p>Contact us</p>
+    </div> -->
+
         <div class="need-help-icon">
             <i class="ion ion-ios-chatboxes"></i>
         </div>
     </div>
+    <div class="mobile-menu-wrapper">
+        <div class="container" style="position: relative;">
+            <!-- close button -->
+            <div class="mobile-menu-close">
+                <div class="mobile-menu-wrapper-container">
+                    <span onclick="closeMobileMenu()">
+                        <i class="ion ion-close"></i>
+                    </span>
+                </div>
+            </div>
 
+            <!-- menu list -->
+            <div class="mobile-menu-list">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="stays.html">Stays</a>
+                    </li>
+
+                    <li>
+                        <a href="rentals.html">Car Rentals</a>
+                    </li>
+
+                    <li>
+                        <a href="explore-properties.html">Explore Properties</a>
+                    </li>
+
+                    <li>
+                        <a href="explore-vehicles.html">Explore Vehicles</a>
+                    </li>
+
+                    <li>
+                        <a href="login-to-start-listing.html">Start Listing</a>
+                    </li>
+
+                    <li>
+                        <a href="my-account53af.html?redirectTo=https%3A%2F%2Ftripmata.com%2Fstays">My Account</a>
+                    </li>
+
+                    <li>
+                        <a href="contact-us.html">Contact Support</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- javascripts -->
+    <script type="application/javascript" src="assets/js/lozad.js"></script>
+    <script type="application/javascript" src="assets/js/main.js"></script>
+    <script type="application/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="application/javascript" src="./assets/js/moment.min.js"></script>
+    <script type="application/javascript" src="./assets/js/lightpick.js"></script>
+    <script type="application/javascript" src="assets/js/init.js"></script>
+    <script type="text/javascript" src="assets/js/deffer.min.js"></script>
+    <!-- search container -->
+    <div class="search-container">
+
+        <span class="search-container-close" onclick="closeSearchContainer()">
+            <i class="ion ion-close"></i>
+        </span>
+
+        <div class="container">
+            <!-- property -->
+            <div class="search-list property active">
+                <form action="https://tripmata.com/explore-properties" class="reservation-area" method="POST">
+                    <input type="hidden" name="CSRF_TOKEN"
+                        value="czoyMzQ6IjsiczoyMTY6Ij09QVpFL0ZIZExnTXBZaTlPbnhSMGtoN283bENLdXVrU1I2cnkwUFpTKzRHTWMxKzVVVkxGTXRGcTVXTHhQNnlDdEFWdVJ3MExXdy9zM3FCVDVENFAvR1IxM2ZhczZUSExaRGg5T1pNYmN4NVRDZWorQ0NLcC91L0QyRlJPQVZDbEY2ektKS3gwVFNWV2ZpS0lDUVZnSElMcVU3SVl1NkFNYUxzWVpqQ2xnQ2V6YWxoWnJ6c1lwakVITDFickxPb2ZTb29wTGxmeG1PMGlkbDFkKzU2OFNzTSI7Ijo1MjI6cyI7" />
+                    <input type="hidden" name="adult" value="1" data-target="travel-adult">
+                    <input type="hidden" name="children" value="0" data-target="travel-children">
+                    <input type="hidden" name="rooms" value="1" data-target="travel-room">
+                    <input type="hidden" name="checkin" value="">
+                    <input type="hidden" name="checkout" value="">
+                    <div class="input-box separator">
+                        <i class="icon ion-android-pin"></i>
+                        <input type="text" name="search" id="location" placeholder="Where are you going to?">
+                    </div>
+                    <div class="input-button separator datepicker-double">
+                        <i class="icon ion-android-calendar"></i>
+                        <span class="input-text"><span class="travel-checkin">Check in</span> - <span
+                                class="travel-checkout">Check out</span></span>
+                    </div>
+                    <div class="input-button separator datepicker-single" style="display: none;">
+                        <div>
+                            <i class="icon ion-android-calendar"></i>
+                            <input type="text" value="" name="travel-checkin" class="datepicker"
+                                data-toggle="datepicker" placeholder="Checkin">
+                        </div>
+
+                        <div>
+                            <i class="icon ion-android-calendar"></i>
+                            <input type="text" value="" name="travel-checkout" class="datepicker"
+                                data-toggle="datepicker" placeholder="Checkout">
+                        </div>
+                    </div>
+                    <div class="input-button staypicker-trigger">
+                        <i class="icon ion-android-calendar"></i>
+                        <span class="input-text"><span class="travel-adult">1 Adult</span> - <span
+                                class="travel-children">0 Children</span> - <span class="travel-room">1
+                                Room</span></span>
+                        <i class="icon ion-arrow-down-b see-more"></i>
+                    </div>
+                    <div class="search-button">
+                        <button type="submit" class="btn btn-curve btn-signal"><i class="ion-android-search"></i> <span
+                                class="search-text" style="display: none;">Search</span></button>
+                    </div>
+
+                    <div class="stays-picker">
+                        <div class="stays-picker-row">
+                            <div class="text">Adults</div>
+                            <div class="controller">
+                                <span class="left-btn">
+                                    <i class="icon ion-minus"></i>
+                                </span>
+                                <input type="text" class="controller-field" onkeypress="" value="1"
+                                    data-target="adult" />
+                                <span class="right-btn">
+                                    <i class="icon ion-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="stays-picker-row">
+                            <div class="text">Children</div>
+                            <div class="controller">
+                                <span class="left-btn">
+                                    <i class="icon ion-minus"></i>
+                                </span>
+                                <input type="text" class="controller-field" onkeypress="" value="0"
+                                    data-target="children" />
+                                <span class="right-btn">
+                                    <i class="icon ion-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="stays-picker-row">
+                            <div class="text">Rooms</div>
+                            <div class="controller">
+                                <span class="left-btn">
+                                    <i class="icon ion-minus"></i>
+                                </span>
+                                <input type="text" class="controller-field" onkeypress="" value="1"
+                                    data-target="rooms" />
+                                <span class="right-btn">
+                                    <i class="icon ion-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- vehicle -->
+            <div class="search-list vehicle">
+                <form action="https://tripmata.com/explore-vehicles" class="reservation-area" method="POST">
+                    <input type="hidden" name="CSRF_TOKEN"
+                        value="czoyMzQ6IjsiczoyMTY6Ij09Z2NqK1o1eG4weUprSUhUYnFDWlRLWVVFbUpHb1lpcEZrQnpYV3hzcktqUUsxU2FUTHFpR0cxM1Zsa2hNSEpRZUVQclNuR2drTElNNXlqR1J6V2VRcmUxM2ZhczZUSExaRGg5T1pNYmN4NVRDZWorQ0NLcC91L0QyRlJPQVZDbEY2ektKS3gwVFNWV2ZpS0lDUVZnSElMcVU3SVl1NkFNYUxzWVpqQ2xnQ2V6YWxoWnJ6c1lwakVITDFickxPb2ZTb29wTGxmeG1PMGlkbDFkKzU2OFNzTSI7Ijo1MjI6cyI7" />
+                    <input type="hidden" name="checkin" value="">
+                    <input type="hidden" name="checkout" value="">
+                    <div class="input-box separator">
+                        <i class="icon ion-android-pin"></i>
+                        <input type="text" name="search" id="location" placeholder="Enter pickup location">
+                    </div>
+                    <div class="input-box input-box-small separator">
+                        <i class="icon ion-android-car"></i>
+                        <select name="vehicle-type">
+                            <option value="">Pick a Car Type</option>
+
+                            <option value="10">Convertible</option>
+
+                            <option value="9">Electric Car</option>
+
+                            <option value="4">Hatch Back</option>
+
+                            <option value="2">Sedan</option>
+
+                            <option value="7">Small</option>
+
+                            <option value="8">Sports</option>
+
+                            <option value="3">Station Wagon</option>
+
+                            <option value="1">SUV</option>
+
+                            <option value="5">Truck</option>
+
+                            <option value="6">Van</option>
+                        </select>
+                    </div>
+                    <div class="input-button datepicker-double">
+                        <i class="icon ion-android-calendar"></i>
+                        <span class="input-text"><span class="travel-checkin">Check in</span> - <span
+                                class="travel-checkout">Check out</span></span>
+                    </div>
+                    <div class="input-button separator datepicker-single" style="display: none;">
+                        <div>
+                            <i class="icon ion-android-calendar"></i>
+                            <input type="text" value="" name="travel-checkin" class="datepicker"
+                                data-toggle="datepicker" placeholder="Checkin">
+                        </div>
+
+                        <div>
+                            <i class="icon ion-android-calendar"></i>
+                            <input type="text" value="" name="travel-checkout" class="datepicker"
+                                data-toggle="datepicker" placeholder="Checkout">
+                        </div>
+                    </div>
+                    <div class="search-button">
+                        <button class="btn btn-curve btn-signal"><i class="ion-android-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- end body,html -->
 </body>
+
 </html>
+<!--Default-->
