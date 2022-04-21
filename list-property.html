@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" class="js-focus-visible" data-js-focus-visible=""><head> 
-	<title>List your property or vehicle on tripmata</title>
+	<title>List your property on tripmata</title>
 
 	<!-- meta tags -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -16,7 +16,7 @@
 <meta name="services" content="https://services.tripmata.com/ClientServices/">
 <meta name="base-url" content="https://tripmata.com/">
 	<!-- link tags -->
-	<link rel="canonical" href="https://tripmata.com/app/listing">
+	<link rel="canonical" href="https://tripmata.com/app/listProperty">
 
 	<!-- favicon -->
 	<link rel="icon" type="image/png" href="https://cdn.tripmata.com//logo/favicon.png" sizes="32x32">
@@ -62,62 +62,55 @@
 }</style></head>
 	
 <body><div class="container">
-    <header class="app-header">
-        <a href="https://tripmata.com/stays" class="app-logo">
+	<header class="app-header">
+		<a href="https://tripmata.com/stays" class="app-logo">
 			<img src="https://cdn.tripmata.com//files/../logo/logo2.png" alt="logo">
 		</a>
+	
+		<a href="https://tripmata.com/listing" class="btn btn-curve btn-sign-in btn-gray btn-account">
+			<span class="text">New Listing</span>
+		</a>
+	</header>
 
-        <a href="javascript:history.back();" class="btn btn-curve btn-sign-in btn-gray btn-account">
-            <span class="text">Go back</span>
+	<div class="boxed-content animate__animated animate__fadeIn animate__delay-0s">
+        <h1 class="box-content-title">List a property</h1>
+        <p class="box-content-caption">Please start by selecting a property category.</p>
+
+        <form class="box-content-form" action="https://tripmata.com/list-property-step2" method="get">
+
+            <label for="location" class="box-content-form-input" onclick="return openDropdown(this);">
+                <span class="label-title">Category</span>
+                <div class="input-element">
+					                    <select name="category" id="location" required="">
+						<option value="">Please choose</option>
+													<option value="Hotel">Hotel</option>
+													<option value="B%26B">B&amp;B</option>
+													<option value="Condor">Condor</option>
+													<option value="Apartment">Apartment</option>
+													<option value="Studio">Studio</option>
+													<option value="Boutique">Boutique</option>
+													<option value="Hall">Hall</option>
+						                    </select>
+                    <i class="icon ion-ios-arrow-down"></i>
+                </div>
+            </label>
+
+            <button type="submit" class="btn btn-curve btn-signal">Continue</button>
+        </form>
+
+        <div class="box-content-separator">Or</div>
+
+        <!-- other tabs, using social buttons -->
+        <a class="social-button" href="https://tripmata.com/list-vehicle">
+            <span class="social-button-text">List a vehicle</span>
         </a>
-    </header>
 
+        <a class="social-button" href="https://tripmata.com/stays">
+            <span class="social-button-text">Go back home</span>
+        </a>
 
-    <div class="boxed-content message-boxed-content box-content-animate-full">
-        <h1 class="box-content-title animate__animated animate__fadeInUp animate__delay-0s">What would you like to list?</h1>
-<!--        <p class="box-content-caption">Please choose from any of the options below.</p>-->
-
-        <div class="listing-group animate__animated animate__fadeInUp animate__delay-1-5s" data-visible-after="1500" style="height: auto;">
-
-            <a href="https://tripmata.com/list-property" class="listing-group-item animate__animated animate__fadeInUp animate__delay-0-5s">
-                <div class="listing-group-item-header">
-                    <i class="icon text-signal">
-                        <svg class="bk-icon -experiments-building_house" height="24" width="24" viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false"><path d="M19.905,3.607a.5.5,0,0,0-.81,0l-3,4.132a.492.492,0,0,0-.1.293V20.5a.5.5,0,0,0,.5.5h6a.5.5,0,0,0,.5-.5V8.032a.5.5,0,0,0-.095-.293ZM18.5,17.5a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm3,8a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Zm0-4a.5.5,0,0,1-1,0v-1a.5.5,0,0,1,1,0Z"></path><path d="M14.5,7.5h-7A.5.5,0,0,0,7,8v5.5a.5.5,0,0,0,.5.5h3a1.5,1.5,0,0,1,1.2.6l2.85,3.8a.25.25,0,0,0,.45-.15V8A.5.5,0,0,0,14.5,7.5Z"></path><path d="M10.889,18.351a.5.5,0,0,0-.8,0L8.2,20.805a.5.5,0,0,1-.4.2H1.5a.5.5,0,0,0-.5.5v2a.5.5,0,0,0,.5.5h11a.5.5,0,0,0,.5-.5V21.333a.5.5,0,0,0-.1-.3Z"></path><path d="M10.9,15.2a.534.534,0,0,0-.4-.2h-7a.5.5,0,0,0-.4.2l-3,4a.5.5,0,0,0,.4.8h7a.5.5,0,0,0,.4-.2l2.2-2.934a.5.5,0,0,1,.8,0L13.1,19.8a.5.5,0,1,0,.8-.6Z"></path><path d="M23.9,5.706l-4-5.5A.515.515,0,0,0,19.5,0H10.737a1,1,0,0,0-.774.367l-3.682,4.5A1,1,0,0,0,7.055,6.5h8.19a1,1,0,0,0,.809-.412L19.1,1.906a.5.5,0,0,1,.808,0L23.1,6.294a.5.5,0,0,0,.808-.588Z"></path></svg>
-                    </i>
-                    <h3>Properties</h3>
-                </div>
-
-                <p>Do you have an apartment, hall, hotel, studio, condo, etc. Click here to submit your property and make an extra income.</p>
-            </a>
-
-            <a href="https://tripmata.com/list-vehicle" class="listing-group-item animate__animated animate__fadeInUp animate__delay-2s">
-                <div class="listing-group-item-header">
-                    <i class="icon text-signal">
-                        <svg class="bk-icon -iconset-car_front" height="24" width="24" viewBox="0 0 128 128" role="presentation" aria-hidden="true" focusable="false"><path d="M109.2 48.9L100 26a16 16 0 0 0-14.8-10H42.8A16 16 0 0 0 28 26l-9.1 23A16 16 0 0 0 8 64v24a8 8 0 0 0 8 8v8a8 8 0 0 0 16 0v-8h64v8a8 8 0 0 0 16 0v-8a8 8 0 0 0 8-8V64a16 16 0 0 0-10.8-15.1zM35.4 29a8 8 0 0 1 7.4-5h42.4a8 8 0 0 1 7.4 5l7.6 19H27.8zM26 76a10 10 0 1 1 10-10 10 10 0 0 1-10 10zm76 0a10 10 0 1 1 10-10 10 10 0 0 1-10 10z"></path></svg>
-                    </i>
-                    <h3>Vehicles</h3>
-                </div>
-
-                <p>Do you have an saloon car, suv, sedan, station wagon, etc. Click here to submit your vehicle and make an extra income.</p>
-            </a>
-
-            <div class="animate__animated animate__fadeInUp animate__delay-2-5s">
-                <div class="box-content-separator">Or</div>
-
-                <!-- social login's -->
-                                <a href="https://tripmata.com/page-content?qn=How+it+works" target="_blank" class="social-button">
-                    <span class="social-button-text">Learn How It Works</span>
-                </a>
-            </div>
-
-        </div>
     </div>
-</div>
-
-<!-- footer image -->
-<!-- <footer class="footer-scrolling-image">
-    <img src="assets/img/building2.png">
-</footer> --><footer>
+</div><footer>
     <!-- footer styling -->
 <section class="gray-bg main-footer">
     <!-- add container -->
@@ -152,7 +145,7 @@
             <aside class="footer-row">
                 <h3>Become a host</h3>
                 <ul>
-                    <li><a href="https://tripmata.com/list-property">List your Property</a></li>
+                    <li><a href="https://tripmata.com/list-property" class="active">List your Property</a></li>
                     <li><a href="https://tripmata.com/list-vehicle">List your Vehicle</a></li>
                     <li><a href="https://tripmata.com/app/coming-soon?pg=help-center">Help Center</a></li>
                     <li><a href="https://tripmata.com/app/coming-soon?pg=faq">Frequently Asked Questions</a></li>
@@ -205,7 +198,7 @@
     </div> -->
     
     <div class="need-help-icon">
-        <i class="ion ion-ios-chatboxes"></i>
+        <i class="ion ion-ios-chatboxes shake"></i>
     </div>
 </div>
 <div class="mobile-menu-wrapper">
@@ -243,7 +236,7 @@
                 </li>
 
                 <li>
-                    <a href="https://tripmata.com/listing" class="active">Start Listing</a>
+                    <a href="https://tripmata.com/listing">Start Listing</a>
                 </li>
 
                 <li>
@@ -273,7 +266,7 @@
         <!-- property -->
         <div class="search-list property active">
             <form action="https://tripmata.com/explore-properties" class="reservation-area" method="POST">
-                <input type="hidden" name="CSRF_TOKEN" value="czoyMzQ6IjsiczoyMTY6Ij09QWo5Ri8zZWtlV2djU3VWdmF0ZzZaK3JOWmxtNkZmTll5dTJvRFhBbzc2WmtwZ3I5RXpUdytFdGhWbVJmV0Z5eG9MbkdwME9DbU8rcEw3YWxta0xrRitZZlJ2MEFmbXo0cGNoZDYwTlI3MUxBd2t1djgxMGpYdkZtQ1R0MXZpN0J0a3oyUjdNcG1vQUZvU3FlSytsczlySEd5TFZEL2tDeTNmNHNnbHZIVWhvVHgzZ1Nld0lESXJxN0xQZ2hUQ24rbytqRWFCbU03bTVEMnlBMDFPL0RsaSI7Ijo1MjI6cyI7">
+                <input type="hidden" name="CSRF_TOKEN" value="czoyMzQ6IjsiczoyMTY6Ij09UUVwUUs2Z0Vua0s2QWljaTY4L3pUTGJXek9CMjVQR2NGYStLczVPY25hK0cveFNNMGR1aHo0RHJGbzJFQ2k0Q3BhQWFiN0xxSllaKzA0QVd5dm92TkZXTkY4UGtFbGIzQzZWczhNSkdDcTREd2t1djgxMGpYdkZtQ1R0MXZpN0J0a3oyUjdNcG1vQUZvU3FlSytsczlySEd5TFZEL2tDeTNmNHNnbHZIVWhvVHgzZ1Nld0lESXJxN0xQZ2hUQ24rbytqRWFCbU03bTVEMnlBMDFPL0RsaSI7Ijo1MjI6cyI7">
                 <input type="hidden" name="adult" value="1" data-target="travel-adult">
                 <input type="hidden" name="children" value="0" data-target="travel-children">
                 <input type="hidden" name="rooms" value="1" data-target="travel-room">
@@ -354,7 +347,7 @@
         <!-- vehicle -->
         <div class="search-list vehicle">
             <form action="https://tripmata.com/explore-vehicles" class="reservation-area" method="POST">
-                <input type="hidden" name="CSRF_TOKEN" value="czoyMzQ6IjsiczoyMTY6Ij09dy9kd2JqMjBibSthTHVNZW9pWE9FZkFYRFVod1o0THZvQnR0TjlrV2hCclJpQllTOG40TWVFV04xMkxaOVZmMGlLeG1IQWYrcDdkMWNaRnAyelVvZm1ZZlJ2MEFmbXo0cGNoZDYwTlI3MUxBd2t1djgxMGpYdkZtQ1R0MXZpN0J0a3oyUjdNcG1vQUZvU3FlSytsczlySEd5TFZEL2tDeTNmNHNnbHZIVWhvVHgzZ1Nld0lESXJxN0xQZ2hUQ24rbytqRWFCbU03bTVEMnlBMDFPL0RsaSI7Ijo1MjI6cyI7">                <input type="hidden" name="checkin" value="">
+                <input type="hidden" name="CSRF_TOKEN" value="czoyMzQ6IjsiczoyMTY6Ij09Z3gyOER3ZnJpN2R5dXhqUHJTZURDcmttWnlQaTB5ZCtCOTRVV2Jrd0lmSTVRWDl6Y1ZJTmhVN0F2ZG0yc2JiTzcvdzBaNDNUYUNRbWUrMG5rVlFIWUZXTkY4UGtFbGIzQzZWczhNSkdDcTREd2t1djgxMGpYdkZtQ1R0MXZpN0J0a3oyUjdNcG1vQUZvU3FlSytsczlySEd5TFZEL2tDeTNmNHNnbHZIVWhvVHgzZ1Nld0lESXJxN0xQZ2hUQ24rbytqRWFCbU03bTVEMnlBMDFPL0RsaSI7Ijo1MjI6cyI7">                <input type="hidden" name="checkin" value="">
                 <input type="hidden" name="checkout" value="">
                 <div class="input-box separator">
                     <i class="icon ion-android-pin"></i>
